@@ -1,2 +1,0 @@
-# uisass
-Sass Training

@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testr",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarnamayeemallia/uisass.git"
+  },
+  "author": "sm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarnamayeemallia/uisass/issues"
+  },
+  "homepage": "https://github.com/swarnamayeemallia/uisass#readme"
+}
