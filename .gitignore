@@ -44,4 +44,5 @@ docs/.jekyll-metadata
 
 # Folders to ignore
 node_modules
+.sass-cache
 

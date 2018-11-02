@@ -1,0 +1,21 @@
+$primaryColor: #373737;
+$secondaryColor: #838080;
+$redColor: #fd0a0c;
+$whiteColor: #fff;
+
+
+
+.header {
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.22);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.22);
+    max-width: 100%;
+    padding: 40px 10px 20px;
+}
+
+.nav {
+
+    li {
+        display: inline-block;
+        margin: 0 8px;
+    }
+}
