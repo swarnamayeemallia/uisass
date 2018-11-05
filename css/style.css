@@ -1,13 +1,139 @@
+body {
+  color: #838080;
+}
+
+h1, h2, h3, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #373737;
+}
+
+.voffse110 {
+  padding-bottom: 110px;
+}
+
+.voffse120 {
+  padding-bottom: 120px;
+}
+
+.br {
+  display: block;
+}
+
+.red {
+  color: #f41414;
+}
+
+.lists {
+  text-transform: capitalize;
+  color: #838080;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 500;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+.lists-services {
+  text-transform: uppercase;
+}
+.lists li {
+  padding: 8px 0;
+}
+
 .header {
   -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
   max-width: 100%;
   padding: 40px 10px 20px;
 }
-
-.nav li {
+.header .topnav-brand {
+  width: 70px;
+  height: 40px;
+  display: block;
+}
+.header .topnav-brand img {
+  width: 100%;
+}
+.header .topnav-link {
+  padding: 4px 0 0 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header .topnav-link li {
   display: inline-block;
   margin: 0 8px;
+}
+.header .topnav-link li a {
+  padding: 0 8px;
+  text-decoration: none;
+  color: #0e0e0f;
+  display: block;
+}
+.header .topnav-link li a:hover, .header .topnav-link li a.active {
+  border-bottom: 2px solid #0e0e0f;
+  color: #f41414;
+}
+
+.sec.about {
+  padding-top: 60px;
+}
+.sec.about .services .block {
+  margin: 0 24px 30px 0;
+  padding: 35px 20px 20px;
+  border: 1px solid #e2e3e7;
+  float: left;
+  width: 31%;
+}
+.sec.about .services .block .icon {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 53px;
+  background: red;
+}
+.sec.about .services .block h3 {
+  font-size: 24px;
+  line-height: 31px;
+  padding-bottom: 34px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.sec.about .services .block:hover {
+  background: #f41414;
+}
+.sec.about .services .block:hover h3, .sec.about .services .block:hover .lists {
+  color: #fff;
+}
+.sec-heading {
+  text-align: center;
+  font-family: roboto;
+  padding-bottom: 110px;
+}
+.sec-title {
+  font-size: 37px;
+  line-height: 48px;
+  font-weight: 600;
+  padding-bottom: 27px;
+}
+.sec-title:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  left: 70px;
+  top: -49px;
+  height: 3px;
+  background-color: #f41414;
+  margin-left: -71px;
+  width: 71px;
+}
+.sec-descript {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

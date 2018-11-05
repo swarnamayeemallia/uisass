@@ -1,21 +1,158 @@
 $primaryColor: #373737;
 $secondaryColor: #838080;
-$redColor: #fd0a0c;
+$redColor: #f41414;
 $whiteColor: #fff;
+$topnavLinkcolor: #0e0e0f;
+$voffset-110: 110px;
+$voffset-120: 120px;
 
+body {
+    color: $secondaryColor;
+}
 
+h1, h2, h3, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: $primaryColor;
+}
+
+.voffse110 { padding-bottom: $voffset-110;}
+.voffse120 { padding-bottom: $voffset-120;}
+.br { display: block;}
+.red { color: $redColor;}
+
+.lists {
+    text-transform: capitalize;
+    color: $secondaryColor;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 500;
+    list-style-type: none;
+    letter-spacing: 1px;
+
+    &-services {
+        text-transform: uppercase;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+}
 
 .header {
     -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.22);
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.22);
     max-width: 100%;
     padding: 40px 10px 20px;
+
+    .topnav {
+
+        &-brand {
+            width: 70px;
+            height: 40px;
+            display: block;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &-link {
+            padding: 4px 0 0 0;
+            margin: 0;
+            font-size: 14px;
+            line-height: 34px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            li {
+                display: inline-block;
+                margin: 0 8px;
+
+                a {
+                    padding: 0 8px;
+                    text-decoration: none;
+                    color: $topnavLinkcolor;
+                    display: block;
+
+                    &:hover,
+                    &.active {
+                        border-bottom: 2px solid $topnavLinkcolor;
+                        color: $redColor;
+                    }
+                }
+            }
+        }
+    }
 }
 
-.nav {
+.sec {
 
-    li {
-        display: inline-block;
-        margin: 0 8px;
+    &.about {
+        padding-top: 60px;
+
+        .services .block {
+            margin: 0 24px 30px 0;
+            padding: 35px 20px 20px;
+            border: 1px solid #e2e3e7;
+            float: left;
+            width: 31%;
+
+            .icon {
+                width: 54px;
+                height: 54px;
+                margin-bottom: 53px;
+                background: red;
+            }
+
+            h3 {
+                font-size: 24px;
+                line-height: 31px;
+                padding-bottom: 34px;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+
+            &:hover {
+                background: $redColor;
+
+                h3, .lists {
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+
+    &-heading {
+        text-align: center;
+        font-family: roboto;
+        padding-bottom: $voffset-110;
+    }
+
+    &-title {
+        font-size: 37px;
+        line-height: 48px;
+        font-weight: 600;
+        padding-bottom: 27px;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: relative;
+            left: 70px;
+            top: -49px;
+            height: 3px;
+            background-color: $redColor;
+            margin-left: -71px;
+            width: 71px;
+        }
+    }
+
+    &-descript {
+        font-size: 18px;
+        line-height: 30px;
     }
 }
