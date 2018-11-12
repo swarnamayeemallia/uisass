@@ -94,7 +94,25 @@ h1, h2, h3 {
   width: 54px;
   height: 54px;
   margin-bottom: 53px;
-  background: red;
+}
+.sec.about .services .block .icon .zmdi {
+  font-size: 4rem;
+  color: #f41414;
+}
+.sec.about .services .block-2 .icon .zmdi {
+  color: #f49111;
+}
+.sec.about .services .block-3 .icon .zmdi {
+  color: #02fe21;
+}
+.sec.about .services .block-4 .icon .zmdi {
+  color: #fe0eb7;
+}
+.sec.about .services .block-5 .icon .zmdi {
+  color: #063bf9;
+}
+.sec.about .services .block-6 .icon .zmdi {
+  color: #fd0810;
 }
 .sec.about .services .block h3 {
   font-size: 24px;
@@ -106,7 +124,7 @@ h1, h2, h3 {
 .sec.about .services .block:hover {
   background: #f41414;
 }
-.sec.about .services .block:hover h3, .sec.about .services .block:hover .lists {
+.sec.about .services .block:hover h3, .sec.about .services .block:hover .lists, .sec.about .services .block:hover .icon .zmdi {
   color: #fff;
 }
 .sec-heading {
